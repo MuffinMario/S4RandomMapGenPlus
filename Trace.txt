@@ -1,0 +1,4 @@
+
+[ 04/19/2022 19:41:10 ] Trace file opened.
+
+[ 04/19/2022 19:41:14 ] Closing trace file...

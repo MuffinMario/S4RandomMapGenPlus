@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\export">
+      <UniqueIdentifier>{bdf4a1fe-a2ee-4b95-9dea-c3b195fe5b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\S4">
+      <UniqueIdentifier>{541ed397-eac6-4ad1-8f15-4844250e83aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\util">
+      <UniqueIdentifier>{ed0485af-478b-4b8e-b354-e8b6b9996204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\gen">
+      <UniqueIdentifier>{5ea4b1fa-ddd1-4a9e-b23d-961f3abd68f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\gen\PerlinNoise-3.0.0">
+      <UniqueIdentifier>{57133447-e9f4-41ba-ba04-dcda328bf5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\util">
+      <UniqueIdentifier>{42e6cf98-33ba-4563-90d0-3592e7649e5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="SRandomMapParams.h">
+      <Filter>Headerdateien\export</Filter>
+    </ClInclude>
+    <ClInclude Include="IMapGeneratorHost.h">
+      <Filter>Headerdateien\export</Filter>
+    </ClInclude>
+    <ClInclude Include="SGround.h">
+      <Filter>Headerdateien\S4</Filter>
+    </ClInclude>
+    <ClInclude Include="SResource.h">
+      <Filter>Headerdateien\S4</Filter>
+    </ClInclude>
+    <ClInclude Include="CBase32Hex.h">
+      <Filter>Headerdateien\util</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.hpp">
+      <Filter>Headerdateien\gen\PerlinNoise-3.0.0</Filter>
+    </ClInclude>
+    <ClInclude Include="IMapGenerator.h">
+      <Filter>Headerdateien\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="CPerlinMapGenerator.h">
+      <Filter>Headerdateien\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="IMapDecorator.h">
+      <Filter>Headerdateien\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="CBasicMapDecorator.h">
+      <Filter>Headerdateien\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeriveKey.h">
+      <Filter>Headerdateien\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenerator.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="EObjectType.h">
+      <Filter>Headerdateien\S4</Filter>
+    </ClCompile>
+    <ClCompile Include="CBase32Hex.cpp">
+      <Filter>Quelldateien\util</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeriveKey.cpp">
+      <Filter>Quelldateien\util</Filter>
+    </ClCompile>
+    <ClCompile Include="SGround.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="postbuild.ps1">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+    <None Include="prebuild.ps1">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+  </ItemGroup>
+</Project>
