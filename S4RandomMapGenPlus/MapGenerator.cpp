@@ -98,6 +98,8 @@ bool __declspec(dllexport) __stdcall GenerateRandomMap(class IMapGeneratorHost* 
 	// Compile map, so we can place objects
 	host->compileMap();
 
+	g_pPerlinMapGenerator->generateObjects();
+	g_pPerlinMapGenerator->generateResources();
 	for (uint32_t x = host->getMapSize() / 2; x < host->getMapSize() -50; x++)
 	{
 		host->placeObject(x, host->getMapSize() / 2, x%2?EObjectType::TropischeDattelpalme1:EObjectType::TropischeDattelpalme2);

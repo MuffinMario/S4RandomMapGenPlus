@@ -1,7 +1,7 @@
 #pragma once
 #include <cstdint>
 #include "SGround.h"
-#include "SResource.h"
+#include "SGroundData.h"
 #include "EObjectType.h"
 class IMapGeneratorHost {
 public:
@@ -31,7 +31,7 @@ public:
 	/*
 		Get Map array of Resoruce data(???,resource type, resource count (0-0xF I believe))
 	*/
-	virtual SResource* getResourceMapPtr() = 0;
+	virtual SGroundData* getGroundDataMapPtr() = 0;
 	/*
 		Places an object at a certain position.
 	*/

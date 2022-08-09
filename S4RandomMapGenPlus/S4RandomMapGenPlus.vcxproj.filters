@@ -48,7 +48,7 @@
     <ClInclude Include="SGround.h">
       <Filter>Headerdateien\S4</Filter>
     </ClInclude>
-    <ClInclude Include="SResource.h">
+    <ClInclude Include="SGroundData.h">
       <Filter>Headerdateien\S4</Filter>
     </ClInclude>
     <ClInclude Include="CBase32Hex.h">

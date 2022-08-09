@@ -1,6 +1,7 @@
+#pragma once
 #include "pch.h"
 #include <cstdint>
-enum class EObjectType : uint32_t{
+enum class EObjectType : uint8_t{
 	Eiche = 1U,
 	Buche,
 	Esche,
@@ -256,7 +257,8 @@ enum class EObjectType : uint32_t{
 	DunklerroterSteinGroesse10,
 	SpitzesRiff2,
 	DunkleSpuckpflanze,
-	Sonnenblumen,
+	Sonnenblumen
+		/* NOT OBJECTS, EFFECTS ,
 	Wasserwellen1 ,
 	Wasserwellen2 ,
 	Wasserwellen3 ,
@@ -291,5 +293,5 @@ enum class EObjectType : uint32_t{
 	KleineHaeuserflaggeviolett,
 	KleineHaeuserflaggeockergelb,
 	KleineHaeuserflaggetuerkis,
-	KleineHaeuserflaggeweiss
+	KleineHaeuserflaggeweiss*/
 };

@@ -178,7 +178,7 @@
     <ClInclude Include="PerlinNoise.hpp" />
     <ClInclude Include="SGround.h" />
     <ClInclude Include="SRandomMapParams.h" />
-    <ClInclude Include="SResource.h" />
+    <ClInclude Include="SGroundData.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CBase32Hex.cpp" />
