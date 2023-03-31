@@ -134,17 +134,18 @@ private:
 		*/
 
 		const auto grassDescents = {
+			EGroundType::RIVER1,
+			EGroundType::RIVER2,
+			EGroundType::RIVER3,
+			EGroundType::RIVER4,
 			EGroundType::GRASS_DUSTY,
-			EGroundType::GRASS_DARK,
+			//EGroundType::GRASS_DARK,
+			EGroundType::GRASS_WEIRD,
 			EGroundType::GRASS_ISLAND,
 			EGroundType::GRASS_PAVEMENT,
 			EGroundType::GRASS_DESERT,
 			EGroundType::GRASS_SWAMP,
 			EGroundType::GRASS_MOUNTAIN,
-			EGroundType::RIVER1,
-			EGroundType::RIVER2,
-			EGroundType::RIVER3,
-			EGroundType::RIVER4,
 			EGroundType::GRASS_MUD,
 		};
 		for (auto& grassDescent : grassDescents)
@@ -172,6 +173,12 @@ private:
 				std::vector<EGroundType>{
 					EGroundType::SWAMP_GRASS,
 					EGroundType::SWAMP
+				}
+			},
+			{
+				EGroundType::GRASS_WEIRD,
+				std::vector<EGroundType>{
+					EGroundType::GRASS_DARK
 				}
 			},
 			{
@@ -221,6 +228,8 @@ private:
 		{
 			m_mGroundMapLevel[levelItem.first] = calcLevel(levelItem.second);
 		}
+
+
 	}
 	static CGroundHierarchy m_sInstance;
 public:
